@@ -3,7 +3,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv("C:\\Users\\pooja\\code\\vs-code-project\\pandas_project\\data.csv")
+df = pd.read_csv("data.csv")
 print(df)
 # df['Calories'].fillna(130, inplace=True)
 
