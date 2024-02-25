@@ -2,14 +2,7 @@ import pandas as pd
 
 print(pd.__version__)
 
-# relative path
-# df = pd.read_csv("pandas_project\data.csv")
-
-# The first backslash in your string is being interpreted as a special character. 
-# In fact, because it's followed by a "U", it's being interpreted as the start of a Unicode code point.
-# df = pd.read_csv("C:\Users\pooja\code\vs-code-project\pandas_project\data.csv")
-df = pd.read_csv("C:\\Users\\pooja\code\\vs-code-project\\pandas_project\\data.csv")
-
+# df = pd.read_csv("data.csv")
 # print(df)
 
 # print dimension of dataframe
